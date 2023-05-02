@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="homepage.css" />
+    <script src="homepage.js"></script>
+    <title>Login</title>
+    <style>
+        /* Style the form container */
+        
+        form {
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        /* Style the form heading */
+        
+        form h2 {
+            margin-top: 0;
+            font-size: 24px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        /* Style the form input labels */
+        
+        form label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+        /* Style the form input fields */
+        
+        form input[type="text"],
+        form input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            font-family: "Segoe UI", sans-serif;
+        }
+        /* Style the form input fields on focus */
+        
+        form input[type="text"]:focus,
+        form input[type="password"]:focus {
+            border-color: #4caf50;
+            box-shadow: 0 0 4px 0 rgba(76, 175, 80, 0.4);
+        }
+        /* Style the form submit button */
+        
+        form button[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out;
+        }
+        /* Style the form submit button on hover */
+        
+        form button[type="submit"]:hover {
+            background-color: #388e3c;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h2>Login</h2>
+        <div class="input-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required />
+        </div>
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required />
+        </div>
+        <button type="submit">Login</button>
+    </form>
+</body>
+
+</html>

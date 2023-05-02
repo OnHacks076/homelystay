@@ -1,0 +1,362 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header styles */
+
+header {
+    background-color: #fff;
+    height: 70px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+img {
+    size: 40px;
+}
+
+
+/* Navigation styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 50px;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* Search bar styles */
+
+.search-bar {
+    background-color: #f2f2f2;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    width: 500px;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    color: #444;
+}
+
+.search-bar button {
+    background-color: #fd5c63;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Hero section styles */
+
+.hero {
+    background-image: url("https://source.unsplash.com/1600x900/?travel");
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero button {
+    background-color: #fd5c63;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Explore section styles */
+
+.explore {
+    background-color: #f2f2f2;
+    padding: 50px 100px;
+}
+
+.explore h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.explore-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.explore-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.explore-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.explore-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.explore-item p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+
+/* Featured destinations section styles */
+
+.featured-destinations {
+    background-image: url("https://source.unsplash.com/1600x900/?beach");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-destinations h2 {
+    color: #fff;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.featured-destinations button {
+    background-color: #fff;
+    color: #222;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Experience section styles */
+
+.experience {
+    padding: 100px;
+}
+
+.experience h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.experience-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.experience-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.experience-item p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+
+/* Featured homes section styles */
+
+.featured-homes {
+    padding: 100px;
+}
+
+.featured-homes h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.featured-homes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.featured-homes-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.featured-homes-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.featured-homes-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.featured-homes-item p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+
+/* Call to action section styles */
+
+.cta {
+    background-image: url("https://source.unsplash.com/1600x900/?city");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta h2 {
+    color: #fff;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cta button {
+    background-color: #fff;
+    color: #222;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Footer section styles */
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 50px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.footer-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-item li {
+    margin-bottom: 10px;
+}
+
+.footer-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-item a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-social a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.footer-social a:hover {
+    text-decoration: underline;
+}
