@@ -1,0 +1,185 @@
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.sticky + .featured-homes {
+  padding-top: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+
+/* Header styles */
+
+header {
+  height: 50px;
+  background-color: rgb(249, 0, 0);
+}
+
+
+/* Navigation styles */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  justify-content: right;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.gonear {
+  width: 100%;
+  height: 55px;
+  background-color: #ffffff;
+}
+
+.logo img {
+  width: 6.5%;
+  height: 60px;
+  position: relative;
+  left: 13px;
+  top: 20px;
+}
+
+
+
+
+
+/* Search bar styles */
+
+.search-bar {
+  background-color: #ffffff;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: thick ridge rgb(255, 255, 255);
+}
+
+.search-bar input[type="text"] {
+  width: 500px;
+  padding: 4px;
+  border: rgb(255, 0, 0);
+  font-size: 15px;
+  border-radius: 22px;
+  border-style: outset;
+}
+
+.search-bar button {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 5px 18px;
+  margin-left: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  border-color: #fffcfc;
+  position: relative;
+  right: 5px;
+  border-radius: 22px;
+}
+
+
+
+
+/* Featured homes section styles */
+
+.featured-homes {
+  background-color: rgb(255, 255, 255);
+}
+
+.featured-homes-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+}
+
+.featured-homes-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.featured-homes-item img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.featured-homes-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.featured-homes-item p {
+  font-size: 16px;
+  color: #da6161;
+  margin-bottom: 10px;
+}
+
+
+
+/* Footer section styles */
+
+footer {
+  background-color: #fe0000;
+  padding: 30px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.footer-item {
+  text-align: center;
+}
+
+.footer-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-item li {
+  margin-bottom: 15px;
+}
+
+.footer-item a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-item a:hover {
+  text-decoration: underline;
+}
